@@ -7,12 +7,13 @@
  */
 ?>
 <?php get_header(); ?>
-<div class="container">
+<section id="blogger">
+<div class="container blog">
 	<div class="row">
 		<?php if ( is_active_sidebar( 'page-sidebar' ) ) { ?>
 		<div class="col-sm-8">
 			<?php } else { ?>
-			<div class="col-sm-8 col-sm-offset-2">
+			<div class="col-sm-10 col-sm-offset-1">
 				<?php } ?>
 			<section id="blog">
 				<?php
@@ -34,4 +35,5 @@
 		<?php } ?>
 	</div><!--/.row-->
 </div><!--/.container-->
+</section>
 <?php get_footer(); ?>

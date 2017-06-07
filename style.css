@@ -14,3 +14,212 @@ This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
 
+
+#header .bottom-header {
+  padding-bottom: 160px;
+  padding-top: 160px;
+}
+
+#header .bottom-header h1 {
+  font-family: 'Merienda One', cursive;
+}
+
+#header .bottom-header .section-description,
+.front-page-section .section-header .section-description {
+  font-family: 'Khula', sans-serif;
+}
+#header .bottom-header .section-description {
+  padding: 30px 30px;
+  background-color: rgba(54, 25, 25, .77);
+  border-radius: 50px;
+}
+#header.header-front-page .bottom-header h1 {
+  text-shadow: 1px 1px 20px black;
+}
+#header.header-front-page .bottom-header .header-button-one,
+#header.header-front-page .bottom-header .header-button-two {
+  border-radius: 25px;
+}
+
+#header .bottom-header .header-button-one {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+/*ABOUT*/
+.front-page-section .section-header {
+  margin-bottom: 20px;
+}
+
+/*Testimony Quote*/
+.testimonial-content q {
+  font-family: 'Marck Script', cursive;
+  /*font-family: 'Satisfy', cursive;*/
+  /*font-family: 'Bad Script', cursive;*/
+  /*font-family: 'Caveat', cursive;*/
+  font-size: 20px;
+}
+#testimonials .section-header {
+  margin-bottom: 0px;
+}
+/*Testimony Heading*/
+.col-sm-12 h3, .testimonial-meta h6 {
+  font-family: 'Signika', sans-serif;
+}
+/*Testimony quote block*/
+#testimonials .section-content .testimonials-carousel .carousel-testimonial .testimonial-content {
+  padding: 40px 40px;
+}
+
+#testimonials .section-content .testimonials-carousel .carousel-testimonial .testimonial-image img {
+  display:none;
+}
+/*Contact Us*/
+#contact-us {
+  color: #fff !important;
+  background-color: #202b34 !important;
+}
+#contact-us .section-header h3 {
+  color: #fff;
+}
+.contact-us-social {
+  display: none;
+}
+#contact-us .section-content .wpcf7-form p .wpcf7-submit {
+  background-color:#dd8500;
+  border-radius: 25px;
+}
+#contact-us .section-content .wpcf7-form p .wpcf7-submit:hover {
+  background-color:#bc5e00;
+}
+footer > .container {
+  display:none;
+}
+.event{
+  text-align: center;
+  font-size: 18px;
+}
+#footer {
+  padding:0;
+}
+#footer .bottom-footer {
+  margin-top:0px;
+}
+
+/*MENU*/
+#menu-menu-1 li a {
+  cursor: pointer;
+}
+#header .top-header .header-navigation ul li:hover > a {
+  color:  #dd8500;
+}
+/*Sub menu*/
+#header .top-header .header-navigation ul li.menu-item-has-children .sub-menu li:hover > a {
+  color: #dd8500;
+  border-left: 3px solid #dd8500;
+}
+/*Content Views*/
+.viewAllMenus{
+  width: auto;
+  height: 54px;
+  line-height: 54px;
+  background: rgba(255, 255, 255, 0.2);
+  /* margin: 0 15px; */
+  margin-bottom: 20px;
+  padding: 0 4px;
+  display: inline-block;
+  border: 3px solid #fff;
+  border-radius: 3px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  font-family: "Lato";
+  min-width: 100px;
+  border-radius: 25px;
+  border-color: #dd8500;
+  border: none;
+}
+
+.viewAllMenus:hover{
+  color: white;
+  background: rgba(255, 255, 255, 0.1);
+  text-decoration: none;
+}
+
+.markup-format p {
+  color: white;
+}
+#header .bottom-header.blog {
+  padding: 80px 0;
+}
+#blog .blog-post .blog-post-title{
+  display: none;
+}
+#blogger {
+  background-image: url(http://localhost:8888/monicaskitchen/wp-content/uploads/2017/06/StockSnap_0A32B0986D-copy.jpg) !important;
+  background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+@media (max-width: 768px) {
+  .pt-cv-view .pt-cv-ifield {
+    text-align: center;
+  }
+}
+@media (min-width: 768px) {
+  .pt-cv-view .pt-cv-ifield {
+    text-align: left;
+    color: white;
+  }
+}
+.section-description .pt-cv-colsys .col-sm-6:nth-child(4),
+.section-description .pt-cv-colsys .col-sm-6:nth-child(5){
+  display: none;
+}
+.front-page-section .section-header h3 {
+  margin: 0 0 30px 0;
+}
+h4.pt-cv-title {
+  font-size: 24px;
+  /*font-family: 'Marck Script', cursive;*/
+  font-family: 'Satisfy', cursive;
+  /*font-family: 'Bad Script', cursive;*/
+  /*font-family: 'Caveat', cursive;*/
+}
+
+h4.pt-cv-title a {
+  float:left;
+  color: #edbb3a;
+  margin: 7px 0px 14px 0px;
+  width: 100%;
+}
+.pt-cv-ifield {
+  background-color: rgba(47, 27, 28, 0.37);
+  padding: 22px 20px;
+  border-radius: 20px;
+}
+.pt-cv-content {
+  font-size: 14px;
+  font-family: 'Khula', sans-serif;
+}
+#full-width.width-padding {
+  padding:60px 0px;
+}
+
+nav.responsive-menu {
+  background-color: #202b34 !important;
+}
+nav.responsive-menu ul li a {
+  color: white;
+}
+
+.header-front-page nav ul.sub-menu {
+  background-color: rgb(73, 92, 108);
+}
+
+nav.responsive-menu .header-front-page nav ul.sub-menu li a {
+  color: white;
+}

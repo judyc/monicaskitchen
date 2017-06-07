@@ -26,12 +26,17 @@ $padding = get_theme_mod( 'illdy_full_width_padding', 1 );
 							<h3><?php echo do_shortcode(wp_kses_post( $general_title )); ?></h3>
 						</div><!--/.col-sm-12-->
 					<?php endif; ?>
+
 					<?php if( $general_entry ): ?>
 						<div class="col-sm-10 col-sm-offset-1">
 							<div class="section-description"><?php echo do_shortcode(wp_kses_post( $general_entry )); ?></div>
 						</div><!--/.col-sm-10.col-sm-offset-1-->
 					<?php endif; ?>
 				</div><!--/.row-->
+				<!-- This is where the view all sample menu link goes -->
+				<div class="col-sm-12">
+					<div><a href="http://localhost:8888/monicaskitchen/sample-menus/" class="viewAllMenus" target="_blank">View all</a></div>
+				</div>
 			</div><!--/.container-->
 		</div><!--/.section-header-->
 	<?php endif; ?>
